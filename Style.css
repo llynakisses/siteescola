@@ -18,3 +18,22 @@ body {
     margin-right: 10cm;
     
 }
+
+.estudantes {
+    display: flex; /*display flexível*/
+    flex-wrap: wrap; /*colocar itens em sequência até não caber mais*/
+
+}
+
+.item {
+   margin-top: 30px; /*Espaço superior de 10 pixels*/
+   margin-bottom: 30px; /*Espaço inferior de 10 pixels*/
+   width: 300px;
+
+}
+
+.item img {
+   width: 200px;
+   height: 300px;
+
+}
