@@ -22,6 +22,7 @@ body {
 .estudantes {
     display: flex; /*display flexível*/
     flex-wrap: wrap; /*colocar itens em sequência até não caber mais*/
+    justify-content: center;
 
 }
 
@@ -37,3 +38,20 @@ body {
    height: 300px;
 
 }
+
+.escola img {
+   width:75%;
+   margin-right: 100px;
+   margin-top: 50px; /*"Espaço superior de 10 pixels"*/
+   margin-bottom: 50px; /*"Espaço inferior de 10 pixels"*/
+
+}
+
+.escola {
+   background-image: linear-gradient(BLACK, GREY);
+   display: flex;
+   align-items: center;
+   justify-content:center;
+
+}
+
