@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color:white;
+    background-color: rgb(253, 192, 215);
+    color:rgb(56, 18, 18);
     font-size: 18px;
     font-style: bold;
 }
@@ -39,19 +39,34 @@ body {
 
 }
 
-.escola img {
-   width:75%;
-   margin-right: 100px;
-   margin-top: 50px; /*"Espaço superior de 10 pixels"*/
-   margin-bottom: 50px; /*"Espaço inferior de 10 pixels"*/
-
-}
-
 .escola {
-   background-image: linear-gradient(BLACK, GREY);
-   display: flex;
-   align-items: center;
-   justify-content:center;
+	background-image: linear-gradient(rgb(253, 192, 215),rgb(255, 255, 255));
+  	display: flex;
+ 	align-items: center; 
+	justify-content: center;
+}
+
+.sobreescola{
+	width:75%;
+	margin-left: 100px;
 
 }
 
+.turma img {
+	width:75%;
+	margin-left: 100px;
+ 	margin-top: 50px; /* Espaço superior de 10 pixels */
+        margin-bottom: 50px; /* Espaço inferior de 10 pixels */
+}
+
+.turma {
+	background-image: linear-gradient(rgb(255, 255, 255),rgb(253, 192, 215));
+  	display: flex;
+ 	align-items: center; 
+	justify-content: center;
+}
+
+.turmatxt{
+	width:550%;
+	margin-right: 10px;
+}
