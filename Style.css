@@ -16,7 +16,20 @@ body {
 
 .topico{
     margin-right: 10cm;
+    margin-top: 100px;
+    font-size: 24px;
+    list-style: none; /*remove marcador*/
     
+}
+
+.topico a{
+    color: white; /*Define a cor do texto dos links*/
+    text-decoration: none; /*Remove a decoração padrão, como sublinhado*/
+
+}
+
+.topico a:hover {
+    text-decoration:underline; /*Adicionar sublinhado em hover*/
 }
 
 .estudantes {
