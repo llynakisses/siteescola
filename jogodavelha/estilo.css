@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0; /* significa que não tem borda */
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.board {
+    display: grid; /* deixa o elemento como grade */
+    grid-template-columns: repeat(3, 1fr); /* está criando três colunas com largura igual */
+    grid-gap: 10px; /* cada célula da grade terá 10 pixels de espaçamento entre elas */
+    margin: 20px auto; /* define margens de 20 pixels acima e abaixo e alinha o elemento horizontalmente no centro usando auto */
+    max-width: 300px;
+}
+
+.casa {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer; /* cursor do mouse vira uma maozinha*/
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
